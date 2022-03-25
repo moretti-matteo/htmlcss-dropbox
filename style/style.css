@@ -17,16 +17,24 @@ body{
 }
 
 /* COMMONS */
+.container-large{
+    padding-top: 100px;
+    max-width: 1300px;
+    margin:auto;
+}
+.container{
+    max-width: 1080px;
+    margin:auto;
+    border:1px solid;
+}
 a{
     text-decoration: none;
 }
-
 .button-blue{
     background: #0063ff;
     color:white;
     padding: 5px 10px;
 }
-
 .button-white{
     background:#fff;
     padding: 5px 10px ;
@@ -37,7 +45,8 @@ header{
     position: fixed;
     padding: 15px;
     width: 100%;
-    border:1px solid;
+    background:white;
+    z-index: 10;
 }
 
 header ul, hedaer li{
@@ -68,7 +77,115 @@ header a{
 }
 
 
-
-
-
 /* MAIN */
+/* HERO */
+.hero{
+    background: #b4d0e6;
+    height: 730px;
+    margin-bottom: 200px;
+}
+
+.hero h1{
+    font-size: 4.5em;
+    margin-bottom:70px;
+}
+
+.col-text-hero, .col-img-hero{
+    float:left;
+}
+
+.col-text-hero{
+    width: 30%;
+ }
+
+ .col-text-hero p{
+     margin-bottom:40px;
+ }
+
+
+.col-img-hero{
+    width:70%;
+    text-align: center;
+}
+
+.col-img-hero img{
+    height: 470px;
+}
+
+
+/* SECTION PLANS */
+#title-plans{
+    font-size: 30px;
+}
+
+.plans-choose{
+    margin:40px auto 30px auto;
+}
+
+.plans-month{
+    margin-right:20px;
+}
+
+.col-plans{
+    min-height: 630px;
+    width: 30%;
+    border:1px solid;
+    float:left;
+    padding: 0 15px;
+
+}
+
+.col-plans-center{
+    margin:auto 5%;
+}
+
+.col-plans-head{
+    text-align: center;
+}
+
+.col-plans-main-top{
+    
+}
+
+.col-plans-main-top--title{
+    margin:15px auto 40px auto;
+}
+
+.col-plans-main-top-price{
+    margin-bottom:20px;
+}
+
+.col-plans-main-top-features ul{
+    list-style-type: none;
+}
+.col-plans-main-top-features ul li {
+    margin-top:10px;
+}
+
+.col-plans-main-top-buy{
+    margin:15px 0;
+}
+
+.freetrial{
+    display: inline-block;
+    color:white;
+    background-color: rgb(0, 110, 255);
+    border:none;
+    padding:5px 30px;
+}
+
+.col-plans-main-top-buy--line{
+    width: 20%;
+    margin-top:30px
+}
+
+
+
+.col-plans-main-bottom ul{
+    list-style-image: url("../img/check-solid.svg");
+    list-style-position: inside;
+}
+
+.col-plans-main-bottom ul li {
+    margin-top:10px;
+}
