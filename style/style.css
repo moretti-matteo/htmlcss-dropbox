@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CLEARFIX */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+/* TYPO */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* COMMONS */
+a{
+    text-decoration: none;
+}
+
+.button-blue{
+    background: #0063ff;
+    color:white;
+    padding: 5px 10px;
+}
+
+.button-white{
+    background:#fff;
+    padding: 5px 10px ;
+}
+
+/* HEADER */
+header{
+    position: fixed;
+    padding: 15px;
+    width: 100%;
+    border:1px solid;
+}
+
+header ul, hedaer li{
+    display: inline-block;
+}
+
+.logo, header ul li a{
+    vertical-align: middle;
+    color:black;
+}
+
+header a{
+    margin:auto 20px;
+}
+
+
+.nav-left, .nav-left ul li, .nav-right, .nav-right ul li{
+    display: inline-block;
+}
+
+.header-left, .header-right{
+    display: inline-block;
+    width: calc(100% / 2 - 5px);
+}
+
+.header-right{
+    text-align: right;
+}
+
+
+
+
+
+/* MAIN */
