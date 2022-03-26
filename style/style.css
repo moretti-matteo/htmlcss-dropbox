@@ -36,7 +36,8 @@ a{
 }
 .button-white{
     background:#fff;
-    padding: 5px 10px ;
+    padding: 10px 20px ;
+    border: 1px solid;
 }
 
 /* HEADER */
@@ -230,3 +231,40 @@ header a{
     width: 30%;
     text-align: right;
 }
+
+.col-main-right .button-blue{
+    display: inline-block;
+}
+
+/* PARTNER SECTION */
+.col-partner-left, .col-partner-right{
+    float:left;
+}
+
+.col-partner-left{
+    width: 60%;
+}
+
+.col-partner-left img{
+    width: 90%;
+}
+
+.col-partner-right{
+    width: 40%;
+    padding-top:50px;
+}
+
+.col-partner-right p{
+    line-height: 30px;
+}
+
+.col-partner-right h2{
+    margin-bottom:20px;
+}
+
+.col-partner-right a{
+    color:black;
+    margin-top:30px;
+    display: inline-block;
+}
+
