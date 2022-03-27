@@ -131,7 +131,7 @@ header a{
 }
 
 .col-plans{
-    min-height: 630px;
+    min-height: 900px;
     width: 30%;
     border:1px solid;
     float:left;
@@ -163,9 +163,14 @@ header a{
 
 .col-plans-main-top-features ul{
     list-style-type: none;
+    margin-bottom: 40px;
 }
 .col-plans-main-top-features ul li {
-    margin-top:10px;
+    margin-top:20px;
+}
+
+.col-plans-main-top-features i{
+    margin-right: 5px;
 }
 
 .col-plans-main-top-buy{
@@ -177,7 +182,13 @@ header a{
     color:white;
     background-color: rgb(0, 110, 255);
     border:none;
-    padding:5px 30px;
+    padding:7px 30px;
+}
+
+.col-plans-main-top-buy .freetrial{
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 .col-plans-main-top-buy--line{
@@ -191,13 +202,17 @@ header a{
 
 }
 
+.col-plans-main-bottom i{
+    color:#2565af;
+    margin-right: 5px;
+}
+
 .col-plans-main-bottom ul{
-    list-style-image: url("../img/check-solid.svg");
-    list-style-position: inside;
+    list-style-type: none;
 }
 
 .col-plans-main-bottom ul li {
-    margin-top:10px;
+    margin-top:20px;
 }
 
 .col-team{
@@ -350,18 +365,30 @@ header a{
 .square-1{
     left:0;
     top:0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 .square-2{
     right:0;
     top:0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 .square-3{
     left:0;
     bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 .square-4{
     right:0;
     bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
 .square-left .square-1{
@@ -500,6 +527,10 @@ footer{
 
 .footer-top a{
     color:#fff;
+}
+
+.footer-bottom{
+    padding-bottom: 40px;
 }
 
 .footer-bottom hr{
