@@ -453,6 +453,10 @@ header a{
 
 
 /* FAQ SECTION */
+
+.faq{
+    margin-bottom: 140px;
+}
 .faq h1{
     font-size: 30px;
     margin-bottom: 40px;
@@ -469,3 +473,45 @@ header a{
     
 }
 
+/* FOOTER */
+/* FOOTER TOP */
+footer{
+    background: #010101;
+    color:#fff;
+
+}
+
+.footer-col{
+    float:left;
+    width: calc(20% - 20px);
+    margin:0 10px;
+}
+
+.footer-top h2{
+    margin-bottom: 25px;
+}
+
+.footer-top ul{
+    list-style-type: none;
+}
+.footer-top li{
+    margin-top:5px;
+}
+
+.footer-top a{
+    color:#fff;
+}
+
+.footer-bottom hr{
+    margin-top:100px;
+    margin-bottom: 40px;
+    width: 10%;
+}
+.footer-bottom select{
+    background: transparent;
+    border:none;
+}
+
+.footer-bottom select, .footer-bottom i{
+    color:grey;
+}
