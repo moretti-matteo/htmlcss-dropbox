@@ -452,3 +452,20 @@ header a{
 }
 
 
+/* FAQ SECTION */
+.faq h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.question-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-box .elem-2,.question-box .elem-1{
+
+    margin:35px 5px 35px 0;
+    
+}
+
