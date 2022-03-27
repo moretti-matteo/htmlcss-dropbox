@@ -272,3 +272,183 @@ header a{
     margin-bottom: 110px;
 }
 
+/* OPERATIONS BUSINESS SECTION */
+.row-operations-business .col{
+    float:left;
+    width: 30%;
+    margin-bottom: 80px;
+}
+
+.title-operations-business{
+    margin-bottom: 60px;
+}
+
+.row-operations-business h3{
+    margin-bottom: 30px;
+}
+
+.row-operations-business .col .col-img{
+    text-align: center;
+
+}
+
+.row-operations-business .col .col-img img{
+    width: 300px;
+}
+
+.row-operations-business .col-center{
+    margin:0 5%;
+}
+
+.operations-business{
+    margin-bottom: 200px;
+}
+
+
+
+.dropbox-business-title h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.dropbox-business .container{
+    margin-bottom:40px;
+}
+
+.square-left,.square-right{
+    position: relative;
+    border:1px solid;
+    height: 25vw;
+    width: 25vw;
+    
+
+}
+
+.square-left{
+    float:left;
+}
+
+.square-right{
+    float:right;
+}
+
+.square-1,.square-2,.square-3,.square-4{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+
+.square-left img,.square-right img{
+    width: 50%;
+}
+.square-center img{
+    width: 20%;
+   
+}
+
+.square-1{
+    left:0;
+    top:0;
+}
+.square-2{
+    right:0;
+    top:0;
+}
+.square-3{
+    left:0;
+    bottom:0;
+}
+.square-4{
+    right:0;
+    bottom:0;
+}
+
+.square-left .square-1{
+    background: #a3d49c;
+}
+
+.square-left .square-2{
+    background: #63072c;
+
+}
+.square-left .square-3{
+    background: #0393cf;
+}
+.square-left .square-4{
+    background: #fe1c1e;
+}
+
+.square-right .square-1{
+    background: #d50020;
+}
+
+.square-right .square-2{
+    background: #b4d0e6;
+
+}
+.square-right .square-3{
+    background: #0e2582;
+}
+.square-right .square-4{
+    background: #ffd930;
+}
+
+
+.square-center{
+    height: 25vw;
+    width: 50vw ;
+    display: inline-block;
+    background:#f6f6f6;
+    padding: 50px 50px 50px 50px;
+}
+
+.square-center hr{
+    width: 10%;
+    margin: 30px 0 50px 0;
+}
+
+.square-center p{
+    margin-bottom: 60px;
+}
+
+.container-square{
+    display: flex;
+}
+
+
+/* DROPBOX BUSINESS 2 SECTION */
+.dropbox-business-2{
+    background: #b4d0e6;
+    min-height: 360px;
+    margin-bottom: 130px;
+}
+
+.dropbox-business-2 .col{
+    float:left;
+}
+
+.dropbox-business-2 .col-left,.dropbox-business-2 .col-right{
+    width: 50%;
+}
+.dropbox-business-2 .col-right{
+    text-align: right;
+}
+
+.dropbox-business-2 .col-left{
+    color: #50102a;
+    font-size: 30px;
+}
+
+.dropbox-business-2 .col-right a{
+    display: inline-block;
+    color:black;
+    padding: 5px 50px;
+    font-weight: 600px;
+}
+
+.dropbox-business-2 .container .col{
+    margin-top:140px;
+}
+
+
